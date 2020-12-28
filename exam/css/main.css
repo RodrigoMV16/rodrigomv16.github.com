@@ -1,0 +1,47 @@
+html{
+  font-family: 'Nunito', sans-serif;
+}
+
+
+.main-imagenes{
+  margin-right: 1em;
+  margin-top: 3em;
+  height: 120px;
+  border-radius: 160px;
+  border:6px solid white;
+}
+
+.container{
+background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.content{
+  max-width: 350px;
+  max-height: 330px;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 120px #202355 inset;
+  
+}
+
+.table{
+  width: 100%;
+  border-spacing: 0;
+  
+}
+.table td, .table th{
+  padding: 6px;
+  text-align: center;
+}
+.table tr:nth-child(1){background-color: rgb(233, 227, 227);}
+
+
